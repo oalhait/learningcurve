@@ -14,23 +14,29 @@
 	
 	
 	}
-nav.top-bar {
-text-align:center;
+.top-bar-button {
+	padding-left: 0;
+	padding-right: 0;
+	width: 24.92%;
 }
-section.top-bar-section {
-display: inline-block;
+.top-bar .toggle-topbar.menu-icon a:after {
+    box-shadow: 0 10px 0 1px #FFFFFF, 0 16px 0 1px #FFFFFF, 0 22px 0 1px #FFFFFF;
+    content: "";
+    display: block;
+    height: 0;
+    position: absolute;
+    right: 0;
+    top: 0;
+    width: 16px;
 }
-/*
-.top-bar-section li a:not(.button) {
-    background:black;
-    color: white;
-    }
+.top-bar .toggle-topbar.menu-icon a {
+    color: #FFFFFF;
+    height: 34px;
+    line-height: 33px;
+    padding: 0 25px 0 0;
+    position: relative;
+}
 
-.top-bar-section li a:not(.button):hover {
-    background:red;
-    color: red;
-    }
-  */
 video#bgvid {
 	position: fixed; right: 0; bottom: 0;
 	min-width: 100%; min-height: 100%;
