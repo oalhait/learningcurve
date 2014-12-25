@@ -17,11 +17,18 @@
 .top-bar-button {
 	padding-left: 0;
 	padding-right: 0;
-	width: 24.92%;
+	width: 23.85%;
+	text-align: center;
+
+}
+#button-text {
+	font-size: 21px;
+	font-family: Maven2;
+	letter-spacing: 2px;
 }
 .top-bar .toggle-topbar.menu-icon a:after {
     box-shadow: 0 10px 0 1px #FFFFFF, 0 16px 0 1px #FFFFFF, 0 22px 0 1px #FFFFFF;
-    content: "";
+    content: "img/logoIcon.png";
     display: block;
     height: 0;
     position: absolute;
@@ -63,10 +70,19 @@ position:relative;
 	position:relative;
 	top:50px;
 	bottom:50px;
-
-
-
 	
+}
+@font-face {
+    font-family: AsapRegular;
+    src: url(fonts/AsapRegular.otf);
+}
+@font-face {
+    font-family: Maven3;
+    src: url(fonts/MavenProLight300.otf);
+}
+@font-face {
+    font-family: Maven2;
+    src: url(fonts/MavenProLight200.otf);
 }
 @font-face {
     font-family: KlinicSlabLight;
@@ -142,6 +158,7 @@ h4{
 }
 #KlinicSlabMedium {
 	font-family: KlinicSlabMedium;
+	font-size: 22px;
 }
 #KlinicSlabLight {
 	font-family: KlinicSlabLight;
