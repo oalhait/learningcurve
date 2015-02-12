@@ -207,6 +207,9 @@ h4{
 	z-index:1;
 	position:relative;
 }
+#tutoring {
+	font-size: 96px;
+}
 .black-box p{font-weight:900;}
 .secondary.small.button{background-color:transparent;color:#fff;border:2px #fff solid;border-radius:5px;padding:15px 50px 15px 50px;margin:0;}
 .secondary.small.button:hover{background-color:rgba(255,255,255,0.5);}
