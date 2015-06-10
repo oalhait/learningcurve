@@ -184,7 +184,12 @@ h4{
 .about-us {
 	z-index:1;
 }
-
+p {
+	font-size:18px;
+	text-align: center;
+	color:black;
+	font-weight:light;
+}
 .columns.large-centered{
 	padding-left:5px;
 	padding-right:5px;
@@ -223,6 +228,19 @@ h4{
 }
 #tutoring {
 	font-size: 96px;
+}
+#map {
+	height:180px;
+}
+.toc {
+	height:50%;
+	width:50%;
+	background-color: green;
+}
+.tocbutton {
+	height:100%;
+	width:100%;
+	text-align: centered;
 }
 .black-box p{font-weight:900;}
 .secondary.small.button{background-color:transparent;color:#fff;border:2px #fff solid;border-radius:5px;padding:15px 50px 15px 50px;margin:0;}
