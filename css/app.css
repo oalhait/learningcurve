@@ -189,6 +189,26 @@ h4{
 	z-index:1;
 	position:relative;
 }
+<<<<<<< HEAD
+=======
+.scrolldown {
+	border:2px solid white;
+	text-transform: uppercase;
+	display:table;
+	padding: 5px;
+	margin: 50px auto 0;
+	font-family: Maven2;
+}
+.arrow {
+	align: centered;
+	display:table;
+	padding: 5px;
+	margin: 10px auto 0;
+}
+#tutoring {
+	font-size: 96px;
+}
+>>>>>>> parent of ff54be4... Revert "Revert 5aff99e..dcc6f98"
 .black-box p{font-weight:900;}
 .secondary.small.button{background-color:transparent;color:#fff;border:2px #fff solid;border-radius:5px;padding:15px 50px 15px 50px;margin:0;}
 .secondary.small.button:hover{background-color:rgba(255,255,255,0.5);}
